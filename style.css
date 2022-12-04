@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.image1{
+    position: absolute;
+    width: 461px;
+    height: 320px;
+    left: 243px;
+    top: 403px;
+
+    background: url(https://s3-alpha-sig.figma.com/img/d6ee/8391/5ff681da789a2a504edbcd38947ec2cb?Expires=1670803200&Signature=adcs5NZf~WVkcxOeJUCpjCsgVCcMCPspB~0gdg1uht2FWcci7xVDb8UxwhvUmWSVg21WjZhrYB3xtJXm8CyrfN-QXEy4-XOvaTb1sMyYF5SQZ-Lra2dG6hZrpzIIGW6J8I7simyJ7BUgRPXLdNQ8B1QBKmOHkO4rGqc~5mwsr20YIZkVB4W8-5Ft~wmZN~FSUo3QDlxD3f48AYWOBqcwK2jPPl9KylQ99I59yUE4wyzSS9Je-2tJ4tkzs1FujtdbREOdd0GepW0tl7fjDh87ZgIxQjzx~U-qNI2ZcRc8QGwpvA3KMYSri1Lhd4w2fynnrsZpOTW7xocNCUlOReDiFg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+.image2{
+    position: absolute;
+    width: 448px;
+    height: 627px;
+    left: 768px;
+    top: 399px;
+
+    background: url(https://s3-alpha-sig.figma.com/img/cb06/2f30/79aef58bfb072d844454ba54385df83e?Expires=1670803200&Signature=e66wT2zdJPVzn4LCamwh1eRxx7B~Z0R6DzCRd1rqsL6CQtUvnAaMds0qxFg5r96doFq~xjbs0vvPEKJpBGMaAEdGRG0m8dSkO1ylCUms8gKp611Cr22zOyqrKLBqRZWe-rqlKHZFcig9HoICbnQHEeVnDrHw9ZRrQodxfeQcQwBXxqnN5-eFRY168ujFJqBlbjMM5Co3DOu4NPqwwRQibaJsnOm24VCI1~kvfTkBh0cpGgp9aKW8YALMlxFTp3P93mkBScBzBQIhFjXUEsvisTpMRFf74YbWc~K4FPzl7VqFMI0t7NZfmwkTEZUppw6EpqopBi-GEQU41Fbx7Orn6Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+.image3{
+    position: absolute;
+    width: 456px;
+    height: 282px;
+    left: 264px;
+    top: 1053px;
+    
+    background: url(https://s3-alpha-sig.figma.com/img/b050/3775/cbab16805bd5a5a57c90d574e0dc644e?Expires=1670803200&Signature=ecB2X6JrlBmcn8tfs8JVV9IxyaHUbJlkfC5ck3p4hKsPeMLrk622J1CrhofNnws9xadQ5v3R9weJjf8piB4tqgqooMZtx-NYnmvnAQwg7LUR-0Po-7AVa6z~iihnINtfLba38uBP86KbgMuRBQJ8i41k4wpw8YpycQMrbEUksQI9NYhWuFHHtqdJg71ItUwVPSw0mIANKtsoneoJdFIez4lCAE00FsFXnAOVpFnfDnJFJiJ3I~ML2tmCl-ccWkj9pXcR5Zx~zT9cJv3~X9FrAPJdGc8GakLkh9q9bx3Z2nOj79fJFF4hhe4WzqsRj9hnCBW6gKob9CsjTB-ZKMqLsA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+.image4{
+    position: absolute;
+    width: 452px;
+    height: 612px;
+    left: 768px;
+    top: 1053px;
+    
+    background: url(https://s3-alpha-sig.figma.com/img/97be/871f/29a19733a9b921f83a9e4b65a5db7963?Expires=1670803200&Signature=UJsmJUj~tzjX~-jH54Turxil9TLs5xgAyKBuLYpmOuDnFPX2A5kUErnASrBHsIh9ARFUxrPAiWAmzOhEb7BVavwn~hCGgkV6w0DJRWKKrXzztziJ6uQ4lNUSi~gcmX4s2x9cVBVMpYYgz8QkX4xaAvJgMkt-Ln652zfi8imbpIovLVlh~HmZIHKHxxVajZVLAal~JOZk6tf89MTeGLUzUy0iTsEhx2OyERZdj1Ck2c5Si6FjSYdkUHrOvGjdtmmys38j0JlVR~A7xg7vQaBO2vNhMKN5vepndr1VNW8LGH7domRfVtVRHUe6Tbtjc2FQWNGanVIxizZkLRrOofSXXA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+.image6{
+    position: absolute;
+    width: 472px;
+    height: 222px;
+    left: 768px;
+    top: 1700px;
+    
+    background: url(https://s3-alpha-sig.figma.com/img/3350/b3c8/219d98e422594b67185cb37b8e029909?Expires=1670803200&Signature=I~zWbwhpyC10wSOYujDoxf7Op7~97IrrNE41rRq~3zAS2SJGwZV38fyB6lTn12JvOcjMQo018rmlXk3lVOxS~x87BWqlnPK0W5KLxLpNf9hjnK7Tj0WBOYqpMLF98pV3ceP~lZQt4zmzp8L700OBt7T9-jNR3fkMJVf8k4KD2paiE10u41jpP7Pbw5O~xtdT671fpLYZIKVZG0XIWI-oeQ0K4CaCJBGe9GH5mx1cZX~fgt2vj0~1CkVQGTL3z5d4pshKbZTVVkaKScW19ri2xajTBGP18Z1pl3p7YR5x2AgFRuofUvExOTaZdZHbys~Z-BKF1aO1Exbi5nLWa~JG9A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+.image7{
+    position: absolute;
+    width: 498px;
+    height: 345px;
+    left: 496px;
+    top: 2703px;
+    
+    background: url(https://s3-alpha-sig.figma.com/img/f570/0ec4/3cc5186fd706bb6d54a4e32e08df1eee?Expires=1670803200&Signature=D8ZxhDMRr~OX-r2685V2-6vEczSG1Nobp5pkmfhoCJyKVF~k~cxbFFdRqzF1mtRogVLNr5O6UY~Y6aDyQ12~1oJ4CknksUR2kB4g7wuaEe7fV6y4Z9EexB7t8bthjAN6vTeRdn0dxpFopLo2Hi9caS0Buv0rkFaePdBYRQ~U8mg50VvrTm1AAUqgKS3K8ddZ-K2AXQpU37LdK~BxyqQG~bLvpVqCSMAl5UK8l6E4Rg0Va~LUN2yASe~w3ibr4zDiYySLT8JsngTKBCvdDqstvbtr1J2gF9lEc5LsRRAZdqQcMa67nTZowXrvNdnuE1-Ju7B0eCQHI-VBjnD0k8gGEg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+.image8{
+    position: absolute;
+    width: 452px;
+    height: 811px;
+    left: 268px;
+    top: 1726px;
+    
+    background: url(https://s3-alpha-sig.figma.com/img/8328/bea3/8f72c0a5b24637a43bc76966707da108?Expires=1670803200&Signature=DVIE-ApISgdqzUY2k1vXcphM4e4--HRlwhAdkk4B1~oiBNZp1AYIBc~fLK5JLW1uAqSSZ4hpES9FauiZV9bImiVn9csIsSSq3wHi7Jj53~EGqlfY7oClh5HgXlWGJD0xJox-MPcAy3tNXpd~vr~ytlqAYKnUcJr4TRm7Nu3DWY8iZL7~iAzEdOtwClFfaO98N57ksuU~3cLwrBdIynKLNGvkF5NRRjR8V6ZtlRYJxtsoNWLrvJa74sy5mWvh0IccxOjU6uDQxSHQgDq0X4Hl5CLiRtCeq30U3fCNebuehnDVbLMnKTGvqBTBMEP3dzr2pWeV1l90mxgMXRqyWUJRTQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+.image10{
+    position: absolute;
+    width: 165px;
+    height: 42px;
+    left: 662px;
+    top: 317px;
+    
+    background: url(https://s3-alpha-sig.figma.com/img/49e1/ff4f/eb32f51185d120995b5eaa37267deace?Expires=1670803200&Signature=SLQ39P-bEWJbKXV8vrhWVVP3bVGu81V~BU6cwsJhEZwrEiyNnvloO7DoFbIsm4ChBbT5lgoUX2KBe4XqUE7cw5KOGyngTif8kvox5xDEVPmrYbrxr~fFItLu6GU2XIowQ~hbQGpDC2mfDqAYunRcdfP9yJk~EeMTcBzkmFtgf7o5p4XPMCd6Tb77hx2O0EJ0WWB-MW0KFtz3cntwGQyjKP3BORNRFYjsqofl2KAkeMOlhk9VErTTpTOFagAPy6lcf7DsXkvx~BB90UT3yzFer88KU28ebNzOGz~ywlfyeuvC9EPOOwrp3vvMmrNmNfTgSd6P3eDdWMdqLzBg7LGzRQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+.image11{
+    position: absolute;
+    width: 445px;
+    height: 28px;
+    left: 196px;
+    top: 233px;
+    background: url(https://s3-alpha-sig.figma.com/img/c228/b1c7/cee942b4b5a0a46f296e1dd28bccf063?Expires=1670803200&Signature=Cdo00PMwNEiLP6MDQlm3LGiIiJZ6X2rQhGiSI34mUCDpHAQJhYQLFLNvTmrjzW3m7SVaI~c-3AcxC0RU1M-NUw1bir6975GdQGUEyRtbziX5AoJBWHXiq2Ao88rvfnk65iURO-2qs3WXxswIS8NpT6uTxb4OTpE6zO6Ia2dGdsu25KwYohduHV0u--aDxD~PSW5QfhKvwbIMazQhWmrcwuy3yOeM7n3GIi-sldPLWH6kgkWj9QMneeBLA0t-riqK9Rd92SRNMfAoxG0CEsgN7PsLzFuc92BHhCdRXoTWIfllbtywlXtOFVngo8FATDbAku3UXO0ZxbelFaIjSEaqGQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);    
+}
+.image12{
+    position: absolute;
+    width: 220px;
+    height: 814px;
+    top: 220px;
+    left: -24px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: url(https://s3-alpha-sig.figma.com/img/e31d/735b/d983e2edaa642c6ef0680f57086e04d0?Expires=1670803200&Signature=AKpR3HR2ZpJVY5sCW0EX2UDA2Urhnne6a5U~i7H6sIQjAgr1~OsUzLSQW-x6hdVeb5G0dRHPnZbaqELjYVKQTHzupI7lVDqmLKu4R1oRap~SVwp1UeYHDnlwI63XGPAGb58hbUz5SCcsJ20Br46YWT7YwvOIQBBFVD7veRrLJq70O5QV0EUNZ6qNLLAUFXbYzp3Tu5qMsE3j2l2j4wmi0uXP8NTpsv~Y3J-g-j5f2XO9n9Gw-v7WabREPppmd16XCOkZoCEUVdKUQtNBZftp4iXJ6BEDFGIlOVBv4SXMjdOIyZy~V0Z3pVjSJMxkQRjI-IH9Oozru~urev4XI6Uz6g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+.rectangle1{
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo1{
+    position: absolute;
+    width: 311px;
+    height: 49px;
+    left: 80px;
+    top: 20px;  
+}
+.vector1{
+    position: absolute;
+    left: 48.44%;
+    right: 0.51%;
+    top: 25.87%;
+    bottom: 26.2%;
+    width: 71.97px;
+    height: 22.8px;
+    color: #0029FF;
+}
+.vector2{
+    position: absolute;
+    left: 21.86%;
+    right: 55%;
+    top: 26.8%;
+    bottom: 26.67%;
+    width: 9.82px;
+    border: 1px solid #FFFFFF;
+}
+.vector{
+    background-color: #0029FF;
+    height: 49px;
+    width: 49.11px;
+    border-radius: 50%;
+}
+.vector3{
+    position: absolute;
+    left: 6.58%;
+    right: 90.26%;
+    top: 25%;
+    bottom: 75%;
+    
+    border: 1px solid #FFFFFF;
+}
+.vector4{
+    position: absolute;
+    left: 4.47%;
+    right: 90.26%;
+    top: 48.33%;
+    bottom: 28.33%;
+    width: 16.37px;
+    height: 11.43px;
+    border: 1px solid #FFFFFF;
+}
+.vector5{
+    position: absolute;
+    left: 5.79%;
+    right: 92.63%;
+    top: 20%;
+    bottom: 70%;
+    width: 4.91px;
+    height: 4.9px;
+    background: #FFFFFF;
+}
+.vector6{
+    position: absolute;
+    left: 8.95%;
+    right: 89.47%;
+    top: 20%;
+    bottom: 70%;
+    width: 4.91px;
+    height: 4.91px;
+    background: #FFFFFF;
+}
+.vector7{
+    position: absolute;
+    left: 7.37%;
+    right: 91.05%;
+    top: 43.33%;
+    bottom: 46.67%;
+    width: 4.91px;
+    height: 4.91px;
+    background: #FFFFFF;
+}
+.vector8{
+    position: absolute;
+    left: 11.05%;
+    right: 87.37%;
+    top: 43.33%;
+    bottom: 46.67%;
+    width: 4.91px;
+    height: 4.91px;
+    background: #FFFFFF;
+}
+.vector9{
+    position: absolute;
+    left: 8.95%;
+    right: 89.47%;
+    top: 66.67%;
+    bottom: 23.33%;
+    width: 4.91px;
+    height: 4.91px;
+    background: #FFFFFF;
+}
+.vector10{
+    position: absolute;
+    left: 5.79%;
+    right: 92.63%;
+    top: 66.67%;
+    bottom: 23.33%;
+    width: 4.91px;
+    height: 4.91px;
+    background: #FFFFFF;
+}
+.vector11{
+    position: absolute;
+    left: 10.53%;
+    right: 87.89%;
+    top: 30%;
+    bottom: 60%;
+    width: 4.91px;
+    height: 4.91px;
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+.vector12{
+    position: absolute;
+    left: 10.53%;
+    right: 87.89%;
+    top: 56.67%;
+    bottom: 33.33%;
+    width: 4.91px;
+    height: 4.91px;
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+.vector13{
+    position: absolute;
+    left: 4.21%;
+    right: 94.21%;
+    top: 56.67%;
+    bottom: 33.33%;
+    width: 4.91px;
+    height: 4.91px;
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+.vector14{
+    position: absolute;
+    left: 4.21%;
+    right: 94.21%;
+    top: 30%;
+    bottom: 60%;
+    width: 4.91px;
+    height: 4.91px;
+    background: #FFFFFF;
+    opacity: 0.1;
+}
+.vector15{
+    position: absolute;
+    left: 3.68%;
+    right: 94.74%;
+    top: 43.33%;
+    bottom: 46.67%;
+    width: 4.91px;
+    height: 4.91px;
+    background: #FFFFFF;
+}
+
+.ellipse56{
+    height: 40px;
+    width: 35px;
+    border-radius: 50%;
+    position: absolute;
+    position: absolute;
+    left: 68.68%;
+    right: 19.24%;
+    top: 2.44%;
+    bottom: 97.12%;
+    background: #3683F0;
+}
+.ellipse55{
+    height: 40px;
+    width: 35px;
+    border-radius: 50%;
+    position: absolute;
+    position: absolute;
+    left: 63.36%;
+    right: 15.56%;
+    top: 2.44%;
+    bottom: 97.12%;
+    background: #3683F0;
+}
+.ellipse57{
+    height: 40px;
+    width: 35px;
+    border-radius: 50%;
+    position: absolute;
+    left: 66.07%;
+    right: 11.83%;
+    top: 2.44%;
+    bottom: 97.12%;
+    background: #3683F0;
+}
+.ellipse53{
+    position: absolute;
+    width: 40.36px;
+    height: 40px;
+    left: 1380px;
+    top: 24px;
+}
+.ellipse53 img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.ellipse3{
+    position: absolute;
+    width: 4.03px;
+    height: 2.99px;
+    left: 1356px;
+    top: 46.97px;
+    background: #3683F0;
+}
+.ellipse2{
+    position: absolute;
+    width: 4.03px;
+    height: 2.99px;
+    left: 1356px;
+    top: 40.98px;
+    background: #3683F0;
+}
+.ellipse1{
+    position: absolute;
+    width: 4.03px;
+    height: 2.99px;
+    left: 1356px;
+    top: 35px;
+    background: #3683F0;
+}
+.rectangle1441{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1136px;
+    height: 2849px;
+    left: 177px;
+    top: 273px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangle1440{
+    position: absolute;
+    width: 1136px;
+    height: 51px;
+    left: 177px;
+    top: 222px;
+    background: #0029FF;
+    border-radius: 10px 10px 0px 0px;
+}
+.group1720{
+    position: absolute;
+    width: 89.07px;
+    height: 76.32px;
+    left: 1207px;
+    top: 3188.86px;
+}
+.rectangle2{
+    position: absolute;
+    left: 83.82%;
+    right: 10%;
+    top: 92.4%;
+    bottom: 5.38%;
+    width: 89.07px;
+    height: 65.32px;
+    background: #0029FF;
+    border-radius: 5px;
+}
+.next{
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
